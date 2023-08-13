@@ -1,8 +1,15 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faArrowRightToBracket} from '@fortawesome/free-solid-svg-icons';
 import '../css/main.css';
+// import {useNavigate} from 'react-router-dom'
 
+// const start = ()=> {
+//     const navigate = useNavigate();
 
+//     const goToMain =()=> {
+//         navigate("/Main");
+//     }
+// }
 
 function Main(){
 

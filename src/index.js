@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import Start from './page/start'
 import Main from './page/main'
+import Search from './page/search'
 
 
 
@@ -10,8 +12,11 @@ const root = ReactDOM.createRoot(
   document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Start/>
-    <Main/>
+    <BrowserRouter>
+      <Start/>
+      <Main/>
+      <Search/>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
