@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Start from './page/start'
 import Main from './page/main'
-import "./font/font.css"
 import Routing from './routing';
 
 
