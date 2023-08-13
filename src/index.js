@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Start from './page/start'
 import Main from './page/main'
-import Routing from './routing';
+
 
 
 const root = ReactDOM.createRoot(
@@ -12,7 +12,6 @@ root.render(
   <React.StrictMode>
     <Start/>
     <Main/>
-    <Routing/>
   </React.StrictMode>
 );
 
