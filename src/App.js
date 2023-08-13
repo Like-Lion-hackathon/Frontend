@@ -1,21 +1,23 @@
-import "./App.css";
+import './App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Start from "./page/start"
-import Main from './page/main'
-import Search from "./page/search";
+import Start from './page/Start'
+import Main from './page/Main'
+import Search from './page/Search';
+
 
 
 function App() {
-    return (
-      <div  className=" wrapper">
-          <div className="contentWrapper">
-            <Routes>
-                 <Route path="/" element={<Start/>}/>
-                  <Route path='main' element={<Main/>}/>
-                  <Route pathe='search' element={<Search/>}/>
-            </Routes>
-          </div>
-      </div>
-    );
-  }
-  export default App;
+  return (
+    <div className="App">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={ <Start /> } />
+          <Route path="/main" element={ <Main /> } />
+          <Route path="/search" element={ <Search /> } />
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
+}
+
+export default App;

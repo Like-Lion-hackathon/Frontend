@@ -1,6 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faArrowRightToBracket} from '@fortawesome/free-solid-svg-icons';
-import '../css/main.css';
+import '../css/Main.css';
+import {useNavigate} from 'react-router-dom'
+
 // import {useNavigate} from 'react-router-dom'
 
 // const start = ()=> {
@@ -12,6 +14,12 @@ import '../css/main.css';
 // }
 
 function Main(){
+    const movePage =useNavigate();
+
+    function gosearch(){
+      movePage('/search')
+    }
+   
 
     // const [isShowMore , setIsShowMore] = 
     
@@ -34,7 +42,9 @@ function Main(){
                             </div>
                             <div>
                                 {/* <button className='sc1_btn' type='button'> 더 보기 </button> */}
-                                <input className='btn1' type='button' value={"더 보기"}></input>
+                                <input className='btn1' type='button' value={"더 보기"}
+                                onClick={gosearch}
+                                ></input>
                             </div>
                         </div>
                         <div className='ac2'>
@@ -50,7 +60,9 @@ function Main(){
                                     <div className='text_bot'>연령별 소비를 분석하여 <br></br>제공합니다. </div>
                                     <div className='text_inner'>
                                         <div>더 보기 </div>
-                                        <div> <FontAwesomeIcon icon={faArrowRightToBracket} /></div>
+                                        <div> <FontAwesomeIcon icon={faArrowRightToBracket} 
+                                       
+                                        /></div>
                                     </div>
                                 </div>
 
@@ -91,7 +103,7 @@ function Main(){
                                 
                             </div>
                             <div > 
-                                <input className='btn2' type='button' value={"더 보기"} href="#"></input>
+                                <input className='btn2' type='button' value={"더 보기"} onClick={gosearch}></input>
                             </div>
                         </div>
                     </div>

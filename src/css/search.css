@@ -1,19 +1,13 @@
-@font-face {
-    font-family: 'TheJamsil5Bold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-}
 
 :root {
     --blue-color: #96dfff ;
 }
-
-body{
+.big{
+    background-color: #fff;
     width: 100%;
     height: auto;
-    background-color: #fff;
 }
+
 
 header{
     display: flex;
@@ -21,12 +15,11 @@ header{
     margin-top: -1em;
     margin-left: -10px;
     margin-right: -10px;
+    justify-content: space-between;
 }
-
 div{
     display: block;
 }
-
 section{
     margin-top: 50px;
     border-bottom: 2px solid gray;
@@ -39,17 +32,17 @@ section{
 
 .title{
     margin-left: 30px;
-    font-family: 'TheJamsil5Bold';
+    
+    
 }
- 
+
 .title2{
     display: flex;
     background-color: white;
     border-radius: 50px;
     height: 47px;
     margin-top: 18px;
-    padding-left: 45px;
-    font-family: 'TheJamsil5Bold';
+    padding-left: 30px;
     font-size: medium;
     align-items: center;
     position: absolute;
@@ -59,9 +52,9 @@ section{
 
 .menu{
     display: flex;
-    font-family: 'TheJamsil5Bold';
     padding-inline-start: 25%;
 }
+
 .choice{
     border-style: none;
     border-left: 1px solid gray;
@@ -73,6 +66,7 @@ section{
     font-family: 'TheJamsil5Bold';
     font-size: medium;
 }
+
 .user{
     text-decoration: none;
     color: black;
@@ -98,40 +92,62 @@ section{
     text-align: center;
     padding-left: 7%;
 }
+
 .tag{
     margin-top: 10px;
 }
 
 img{
-    padding-left: 20%;
-    width: 60%;
-    padding-top: 2%;
+    margin-left: 80px;
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+   
 }
 
-.mainfirst{
+/* .mainfirst{
     margin-top: 40px;
     border: 5px solid skyblue;
     border-radius: 50px;
     width: 80%;
     margin-left: 10%;
     height: auto;
+} */
+.maintop{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+}
+
+.mainfirst{
+    width: 750px;
+    height: 750px;
+    border: 5px solid skyblue;;
+    border-radius: 50px;
+    margin-top: 70px;
+    position: absolute;
+    left: 50%;
+    margin-left: -375px;
+    background-color: #fff;
+
 }
 
 .kakao{
-    font-family: 'TheJamsil5Bold';
     background-color: var(--blue-color);
-    border-radius: 50px;
-    width: 10%;
-    height: 40px;
+    border-radius: 25px;
+    width: 15%;
+    height: 35px;
     text-align: center;
     padding-top: 14px;
+    margin-left: 5px;
+    
 }
+
 table, td{
     width: 50%;
-    height: 30px;
+    height: 25px;
     border: 2px solid black;
     border-collapse: collapse;
-    font-family: 'TheJamsil5Bold';
     margin-left: 25%;
 }
 

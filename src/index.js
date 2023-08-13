@@ -1,22 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
 import './index.css';
-import Start from './page/start'
-import Main from './page/main'
-import Search from './page/search'
+import App from './App';
 
-
-
-const root = ReactDOM.createRoot(
-  document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Start/>
-      <Main/>
-      <Search/>
-    </BrowserRouter>
+    <App />
   </React.StrictMode>
 );
 
