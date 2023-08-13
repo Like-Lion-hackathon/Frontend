@@ -9,7 +9,6 @@ function Start(){
       movePage('/main')
     }
    
-
     return(
         <body>
           <div className='bg_box'>
