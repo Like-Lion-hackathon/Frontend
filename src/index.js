@@ -1,19 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Start from './page/start'
-import Main from './page/main'
-import "./font/font.css"
-import Routing from './routing';
+import App from './App';
 
-
-const root = ReactDOM.createRoot(
-  document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Start/>
-    <Main/>
-    <Routing/>
+    <App />
   </React.StrictMode>
 );
 
