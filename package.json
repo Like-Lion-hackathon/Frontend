@@ -1,5 +1,5 @@
 {
-  "name": "hackaton",
+  "name": "tip",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,16 +12,9 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.4.0",
-    "bootstrap": "^5.3.1",
-    "express": "^4.18.2",
-    "http-proxy-middleware": "^2.0.6",
-    "mysql": "^2.18.1",
-    "node": "^20.5.0",
-    "query-string": "^8.1.0",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.14.2",
+    "react-router-dom": "^6.15.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -48,6 +41,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "proxy": "http://localhost:8080"
+  },"proxy": "http://43.200.8.72"
 }

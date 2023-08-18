@@ -1,4 +1,3 @@
-
 :root {
     --blue-color: #96dfff ;
 }
@@ -99,14 +98,6 @@ section{
 
 
 
-/* .mainfirst{
-    margin-top: 40px;
-    border: 5px solid skyblue;
-    border-radius: 50px;
-    width: 80%;
-    margin-left: 10%;
-    height: auto;
-} */
 .maintop{
     background-color: #fff;
     width: 100%;
@@ -126,7 +117,7 @@ section{
 
 }
 
-.kakao{
+.innisfree{
     background-color: var(--blue-color);
     border-radius: 25px;
     width: 15%;
@@ -165,27 +156,13 @@ th, td{
     width: 80%;
     margin-bottom: 101px;
 }
-
-.btn-1{
-    background-color: none;
-
-    border: none;
-    font-family:'TheJamsil5Bold' ;
-    margin-top: 15px;
-    font-size: 20px;
+.imgfirst{
+    display: flex;
 }
-.btn-2{
-    background-color:none;
-    border: none;
-    font-family:'TheJamsil5Bold' ;
-    font-size: 20px;
-}
-
-.img_what{
-    margin-left: 80px;
-    width: 50%;
+.imgs_2{
+    width: 250px;
     height: auto;
-    margin-bottom: 20px;
-    margin-right: 70px;
-
+    padding-left: 90px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
