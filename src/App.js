@@ -5,9 +5,11 @@ import Main from './page/Main';
 import Search from './page/Search';
 
 
-
 function App() {
-  return (
+
+    return(
+      
+
     <div className="App">
       <BrowserRouter>
         <Routes>
@@ -18,6 +20,6 @@ function App() {
       </BrowserRouter>
     </div>
   );
-}
+    }
 
 export default App;

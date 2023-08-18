@@ -125,7 +125,7 @@ img{
     border: 5px solid skyblue;;
     border-radius: 50px;
     margin-top: 70px;
-    position: absolute;
+    position: relative;
     left: 50%;
     margin-left: -375px;
     background-color: #fff;
@@ -153,4 +153,21 @@ table, td{
 
 th, td{
     padding: 15px;
+}
+
+.user {
+    background-color:#3DB9FF ;
+    border-radius: 30px;
+    width: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.table{
+    position: absolute;
+    bottom: 0;
+    margin-left: 20px;
+    width: 80%;
+    margin-bottom: 101px;
 }
