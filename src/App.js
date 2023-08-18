@@ -10,6 +10,15 @@ import Page2 from './page/Page2'
 
 function App() {
     
+  App.use(cors({
+    origin: ['http://localhost:3000', 'http://3.38.247.101:8082'], // front IP 추가
+    credentials: true
+  }));
+  
+  // 2.
+  App.listen(8082, () => { // 3065 -> 80(허용된 포트 번호)으로 변경
+    console.log('서버 실행 중!');
+  })
     
     return(
       
